@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل معنا - شركة الخبير الليبي لخدمات الصيرافة المالية">
+    <title>تواصل معنا - شركة الخبير الليبي</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.png" alt="شركة الخبير الليبي لخدمات الصيرافة المالية" class="logo-img">
+                        <div class="logo-text">
+                            <h2>شركة الخبير الليبي</h2>
+                            <span>لخدمات الصيرافة المالية</span>
+                        </div>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="contact.html" class="active">تواصل معنا</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>تواصل معنا</h1>
+            <p>نحن هنا لمساعدتك في أي وقت</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>معلومات التواصل</h2>
+                    <p>نحن جاهزون للرد على استفساراتك ومساعدتك في أي وقت. لا تتردد في التواصل معنا.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">📱</div>
+                            <h3>الهواتف</h3>
+                            <div class="contact-details">
+                                <a href="tel:0922776719">0922776719</a>
+                                <a href="tel:0910409438">0910409438</a>
+                                <a href="tel:0910409689">0910409689</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">🕐</div>
+                            <h3>ساعات العمل</h3>
+                            <div class="contact-details">
+                                <p>السبت - الخميس: 9:00 ص - 6:00 م</p>
+                                <p>الجمعة: مغلق</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">📍</div>
+                            <h3>موقعنا</h3>
+                            <div class="contact-details">
+                                <p>ليبيا</p>
+                                <p><a href="https://maps.google.com/?q=32.753597,12.729329" target="_blank" rel="noopener" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">عرض الموقع على الخريطة</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">إرسال الرسالة</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>موقعنا على الخريطة</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.1234567890123!2d12.729329!3d32.753597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQ1JzEyLjkiTiAxMsKwNDMnNDUuNiJF!5e0!3m2!1sar!2sly!4v1738000000000!5m2!1sar!2sly"
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 10px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="موقع شركة الخبير الليبي لخدمات الصيرافة المالية">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>ابدأ رحلتك معنا اليوم</h2>
+                <p>تواصل معنا واحصل على أفضل الخدمات المالية</p>
+                <div class="cta-buttons">
+                    <a href="tel:0922776719" class="btn btn-primary btn-large">اتصل بنا الآن</a>
+                    <a href="services.html" class="btn btn-outline btn-large">عرض خدماتنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="شركة الخبير الليبي لخدمات الصيرافة المالية" class="footer-logo-img">
+                    </div>
+                    <p class="footer-desc">نقدم خدمات مالية احترافية وموثوقة لعملائنا الكرام</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <ul class="contact-info">
+                        <li>📱 0922776719</li>
+                        <li>📱 0910409438</li>
+                        <li>📱 0910409689</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 شركة الخبير الليبي لخدمات الصيرافة المالية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
